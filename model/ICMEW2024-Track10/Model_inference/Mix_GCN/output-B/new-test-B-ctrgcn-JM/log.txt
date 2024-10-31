@@ -1,0 +1,2 @@
+[ Fri Oct 25 11:03:26 2024 ] Load weights from output/new-ctrgcn-JM/runs-85-5440.pt.
+[ Fri Oct 25 11:03:27 2024 ] using warm up, epoch: 5

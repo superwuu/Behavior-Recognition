@@ -1,0 +1,6 @@
+python main.py --config ./config/mixformer_V1_J.yaml --phase test --save-score True --weights /media/sdd/robot/ICMEW2024-Track10/Model_inference/Mix_Former/output/skmixf__V1_J_enhance/runs-56-3584.pt --device 0 1 2 3
+python main.py --config ./config/mixformer_V1_B.yaml --phase test --save-score True --weights /media/sdd/robot/ICMEW2024-Track10/Model_inference/Mix_Former/output/skmixf__V1_B_enhance/runs-61-3904.pt --device 0 1 2 3
+python main.py --config ./config/mixformer_V1_JM.yaml --phase test --save-score True --weights /media/sdd/robot/ICMEW2024-Track10/Model_inference/Mix_Former/output/skmixf__V1_JM_enhance/runs-69-4416.pt --device 0 1 2 3
+python main.py --config ./config/mixformer_V1_BM.yaml --phase test --save-score True --weights /media/sdd/robot/ICMEW2024-Track10/Model_inference/Mix_Former/output/skmixf__V1_BM_enhance/runs-59-3776.pt --device 0 1 2 3
+python main.py --config ./config/mixformer_V1_k2.yaml --phase test --save-score True --weights /media/sdd/robot/ICMEW2024-Track10/Model_inference/Mix_Former/output/skmixf__V1_k2_enhance/runs-56-3584.pt --device 0 1 2 3
+python main.py --config ./config/mixformer_V1_k2M.yaml --phase test --save-score True --weights /media/sdd/robot/ICMEW2024-Track10/Model_inference/Mix_Former/output/skmixf__V1_k2M_enhance/runs-58-3712.pt --device 0 1 2 3

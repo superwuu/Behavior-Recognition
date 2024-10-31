@@ -1,0 +1,2 @@
+[ Fri Oct 25 11:03:56 2024 ] Load weights from output/mstgcn_V1_BM/runs-62-2108.pt.
+[ Fri Oct 25 11:03:56 2024 ] using warm up, epoch: 5

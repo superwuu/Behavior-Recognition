@@ -1,0 +1,30 @@
+# feeder
+feeder: feeders.feeder.Feeder
+test_feeder_args:
+  data_path: /media/sdd/robot/datasets/test_bone_B.npy
+  label_path: /media/sdd/robot/datasets/num1_label.npy
+  # data_path: /media/sdd/robot/datasets/test_joint_B.npy
+  # label_path: /media/sdd/robot/datasets/num1_label.npy
+  # data_path: ./data/uav/xsub1/test_joint.npy
+  # label_path: ./data/uav/xsub1/test_label.npy
+  debug: False
+
+# model
+model: model.tegcn.Model
+model_args:
+  num_class: 155
+  num_point: 17
+  num_person: 2
+  graph: graph.uav.Graph
+  graph_args:
+    labeling_mode: 'spatial'
+
+# test
+phase: test
+device: [0,1,2,3]
+test_batch_size: 256
+# weights: ./runs/2101-43-3608.pt
+weights: /media/sdd/robot/TE-GCN/runs/2103_bone-48-6272.pt
+# weights: /media/sdd/robot/TE-GCN/runs/2104_dataprocessv1-47-3984.pt
+# weights: /media/sdd/robot/TE-GCN/runs/2105_bone_dataprocessv1-42-11008.pt
+save_score: True

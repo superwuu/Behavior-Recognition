@@ -1,0 +1,2 @@
+[ Sat Oct 26 01:32:05 2024 ] Load weights from /media/sdd/robot/ICMEW2024-Track10/Model_inference/Mix_Former/output/skmixf__V1_k2M_enhance/runs-58-3712.pt.
+[ Sat Oct 26 01:32:05 2024 ] using warm up, epoch: 5

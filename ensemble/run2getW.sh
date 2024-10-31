@@ -1,0 +1,23 @@
+python get_weight.py \
+--mixformer_J_Score /media/sdd/robot/ICMEW2024-Track10/testA/skmixf_J.pkl \
+--mixformer_B_Score /media/sdd/robot/ICMEW2024-Track10/testA/skmixf_B.pkl \
+--mixformer_JM_Score /media/sdd/robot/ICMEW2024-Track10/testA/skmixf_JM.pkl \
+--mixformer_BM_Score /media/sdd/robot/ICMEW2024-Track10/testA/skmixf_BM.pkl \
+--mixformer_k2_Score /media/sdd/robot/ICMEW2024-Track10/testA/skmixf_K2.pkl \
+--mixformer_k2M_Score /media/sdd/robot/ICMEW2024-Track10/testA/skmixf_K2M.pkl \
+--tegcn_J_Score /media/sdd/robot/ICMEW2024-Track10/testA/tegcn_J.pkl \
+--tegcn_B_Score /media/sdd/robot/ICMEW2024-Track10/testA/tegcn_B.pkl \
+--ctrgcn_J2d_Score /media/sdd/robot/ICMEW2024-Track10/testA/ctrgcn_J.pkl \
+--ctrgcn_B2d_Score /media/sdd/robot/ICMEW2024-Track10/testA/ctrgcn_B.pkl \
+--ctrgcn_JM3d_Score /media/sdd/robot/ICMEW2024-Track10/testA/ctrgcn_JM.pkl \
+--ctrgcn_BM3d_Score /media/sdd/robot/ICMEW2024-Track10/testA/ctrgcn_BM.pkl \
+--tdgcn_J2d_Score /media/sdd/robot/ICMEW2024-Track10/testA/tdgcn_J.pkl \
+--tdgcn_B2d_Score /media/sdd/robot/ICMEW2024-Track10/testA/tdgcn_B.pkl \
+--tdgcn_JM2d_Score /media/sdd/robot/ICMEW2024-Track10/testA/tdgcn_JM.pkl \
+--tdgcn_BM2d_Score /media/sdd/robot/ICMEW2024-Track10/testA/tdgcn_BM.pkl \
+--mstgcn_J2d_Score /media/sdd/robot/ICMEW2024-Track10/testA/mstgcn_J.pkl \
+--mstgcn_B2d_Score /media/sdd/robot/ICMEW2024-Track10/testA/mstgcn_B.pkl \
+--mstgcn_JM2d_Score /media/sdd/robot/ICMEW2024-Track10/testA/mstgcn_JM.pkl \
+--mstgcn_BM2d_Score /media/sdd/robot/ICMEW2024-Track10/testA/mstgcn_BM.pkl \
+--val_sample /media/sdd/robot/ICMEW2024-Track10/testA/testA_label.npy \
+--benchmark V1
