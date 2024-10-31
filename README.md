@@ -9,13 +9,15 @@
   - model：比赛使用的代码仓库
     - ICMEW2024-Track10
       - Model_infrence目录下为Mix_Former和Mix_GCN的代码
+    - TE-GCN
+      - TE-GCN模型的代码
   - emsemble：比赛使用模型集成代码仓库
     - run2getW.sh：获取20个模型权重的脚本，启动get_weight.py程序
     - run2getRes.sh：推理testB的脚本，得到pred.npy，启动ensemble_eval.py
     - final_merged_data_select.csv：20个模型对模糊集的分类结果
     - vague_set_optimize.py：模糊集的优化筛选过程
   - 参数文档.pdf：说明文档
-
+  
     ------
   
     
@@ -38,10 +40,11 @@
     - 训练：
       1. 将训练集整理成npy文件（TE-GCN使用）与npz文件（Top仓库使用）后放置在指定位置
       2. 训练Top仓库：分别运行Mix_Former和Mix_GCN文件夹下的train.sh，结果保存在output文件夹中
-      3. 训练TE-GCN仓库：分别运行TRAIN_V1_bone_enhance.sh脚本与TRAIN_V1_joint_enhance.sh脚本，结果保存在work_dir文件夹中
+      3. 训练TE-GCN仓库：分别运行TRAIN_V1_bone.sh脚本与TRAIN_V1_joint.sh脚本，结果保存在work_dir文件夹中
     - 推理：
       1. 将testB同样整理成npy文件与npz文件
       2. 推理Top仓库：别运行Mix_Former和Mix_GCN文件夹下的testB.sh，结果保存在output-B文件夹中
+      3. 推理TE-GCN仓库：分别运行EVAL_V1_bone.sh脚本与EVAL_V1_joint.sh脚本，结果保存在runs文件夹中
   - 模型集成
     - 第一阶段：
       1. 将testA、testB文件夹放置到ensemble文件夹下
